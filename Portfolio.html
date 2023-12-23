@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devisree Dayana - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+        }
+
+        .project h3 {
+            color: black; /* Changed from #4285f4 to black */
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ATLURI DHATRI SAI SUBHA</h1>
+        <p> ATLURI DHATRI SAI SUBHA </p>
+        <p>Software Engineer | Code Artisan  | Problem Solver</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>      
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello there! I'm Atluri Dhatri Sai Subha, an aspiring software engineer eager to embark on a journey of innovation and problem-solving. I am enthusiastic about applying my academic knowledge and hands-on experiences to real-world software development challenges. During my studies, I've gained proficiency in programming languages like C, Python, Java, and I have a solid foundation in software engineering principles. My academic projects showcase my ability to quickly grasp new concepts and my passion for creating efficient and user-centric solutions. I am excited to contribute my skills, energy, and fresh perspectives to a dynamic team and make a meaningful impact in the world of software engineering.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Programming Skills</p>
+        <p>Communication Skills</p>
+        <p>Problem-Solving</p>
+        <p>Adaptability</p>
+        <p>Teamwork and Collaboration</p>
+        <p>Time Management</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Svecw Branch Predictor</h3>
+            <p>The primary goal of our project is to create a branch prediction system tailored for our college. This system aims to simplify the decision-making process for students by offering valuable insights into their likelihood of admission to different branches of study.</p>
+        </div>
+
+        <div class="project">
+            <h3>Voice Assistant</h3>
+            <p> It is a personal voice assistant.zit can Perform various operations such as play songs from youtube, tell jokes, search in google, get information from wikipedia and a lot more.</p>
+        </div>
+
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <p>Secured the third position in a college-level coding competition conducted by Computer Science and Engineering Depatmentof our college.</p>
+        <p>Have been listed in the top 50 coders in the coding contest conducted by our college.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Contact me at: dhatrisaisubhaatluri04@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Atluri Dhatri Sai SUbha. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
